@@ -20,7 +20,7 @@
         <updated>2023-04-15T02:12:06+08:00</updated>
             <summary>
                 <![CDATA[
-                    要使用Hexo管理GitHub仓库的网页，您需要遵循以下步骤： 在GitHub上创建一个新的仓库，用于存储Hexo生成的静态网页。请确保您已经安装了Git并且已经配置了您的GitHub帐户。 在本地计算机上安装Hexo。可以使用npm（Node.js包管理器）来安装Hexo。在命令行中运行以下命令： npm install -g hexo-cli 创建一个新的Hexo网站。在命令行中，导航到您想要创建Hexo网站的目录，然后运行以下命令： Copy code hexo init &lt;folder&gt; cd &lt;folder&gt; npm install 这将创建一个包含默认主题和示例内容的新Hexo网站。 配置Hexo以将生成的静态网页发布到GitHub Pages。在Hexo网站的根目录中，打开_config.yml文件，找到以下行： Copy code deploy: type: 将type更改为github。然后，在同一文件中，找到以下行： Copy code deploy: repo: 将repo更改为您在步骤1中创建的GitHub仓库的URL，例如： Copy code deploy: repo: git@github.com:yourusername/yourusername.github.io.git 保存并关闭文件。 生成并发布Hexo网站。在命令行中，运行以下命令： hexo generate hexo deploy 这将生成静态网页并将其发布到您在步骤4中配置的GitHub仓库中。 在GitHub上启用GitHub Pages。在GitHub仓库的设置页面中，将GitHub Pages设置为使用“master”分支和“/”目录。保存更改后，您的Hexo网站应该可以在GitHub&hellip;
+                    要使用Hexo管理GitHub仓库的网页，您需要遵循以下步骤： 在GitHub上创建一个新的仓库，用于存储Hexo生成的静态网页。请确保您已经安装了Git并且已经配置了您的GitHub帐户。 在本地计算机上安装Hexo。可以使用npm（Node.js包管理器）来安装Hexo。在命令行中运行以下命令： npm install&hellip;
                 ]]>
             </summary>
         <content type="html">
